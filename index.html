@@ -13,12 +13,12 @@
 
   <label>
       Email:
-    <input type="text" name="email">
+    <input type="email" name="email">
   </label><br>
 
   <label>
       Password:
-    <input type="text" name="text">
+    <input type="password" name="text">
   </label><br>
 
   <label>
@@ -26,19 +26,22 @@
     <input type='text' name="Git Username">
   </label><br><br>
 
-  <input type="radio" name="Options" value="Enterprise"> Enterprise
-  <input type="radio" name="Options" value="Pro"> Pro
-  <input type="radio" name="Options" value="Free"> Free
+  <input type="radio" name="Options" value="Enterprise" id="Enterprise" required>
+  <label for="Enterprise">Enterprise</label>
+  <input type="radio" name="Options" value="Pro" id="Pro" required>
+  <label for="Pro">Pro</label>
+  <input type="radio" name="Options" value="Free" id="Free" required>
+  <label for="Free">Free</label>
   <br>
   <br>
-  <input type="checkbox" name="Remember" value="Remember me?"> Remember me?
+  <input type="checkbox" name="Remember" value="Remember me?" id="Remember">
+  <label for="Remember">Remember me?</label>
   <br>
   <br>
   <button type="submit">Submit</button>
 
 
 </form>
-
 </body>
 
 </html>
